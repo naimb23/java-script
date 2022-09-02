@@ -1,7 +1,7 @@
 console.log('Hello World');
 
-let name='Naim'; //String Literal
-let age = 30; //Number Literal
+let name ='Naim'; //String Literal
+let age = 15; //Number Literal
 let isApproved = true; //Boolean Literal
 let firstName = 'undifined'; //
 let selectedColor = null; //
@@ -23,3 +23,17 @@ intresetRate = 1;
 console.log(intresetRate)
 
 //The secone one comes up become code is read from top to bottom.
+
+let person = {
+    name: 'Naim',
+    age: 15
+};
+
+//Dot notation
+person.name = 'John';
+
+//Braket Notation
+let selection = 'name';
+person['name'] = 'Mary';
+
+console.log(person.name)
