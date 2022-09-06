@@ -37,3 +37,15 @@ let selection = 'name';
 person['name'] = 'Mary';
 
 console.log(person.name)
+
+
+let selectedColors = ['red', 'blue'];
+selectedColors[2] = 1;
+console.log(selectedColors.length);
+console.log(selectedColors);
+
+//Making Functions
+function greet () {
+    console.log('Hello World');
+}
+greet();
