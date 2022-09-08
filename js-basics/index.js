@@ -45,7 +45,28 @@ console.log(selectedColors.length);
 console.log(selectedColors);
 
 //Making Functions
-function greet () {
-    console.log('Hello World');
+function greet (greetName, greetLastname) {
+    console.log('Hello World ' + greetName + greetLastname);
 }
-greet();
+greet('John', ' Smith');
+greet('Mary', ' Baker');
+
+
+function best (yourName) {
+    console.log(yourName + ' is the best programmer.');
+}
+best('Naim');
+//Example that I made myself
+
+//Calculating a value
+function square(number) {
+    return number*number;
+}
+
+console.log((square)(26));
+
+function areaTri(base, height){
+    return height*base/2
+}
+
+console.log(areaTri (2 , 8));
