@@ -65,8 +65,42 @@ function square(number) {
 
 console.log((square)(26));
 
+//My own little Project
 function areaTri(base, height){
     return height*base/2
 }
 
 console.log(areaTri (2 , 8));
+
+//How to make loops
+
+//How to create FOR LOOPS
+for (let i = 0; i < 5; i++) {
+    console.log('I am the best programmer')
+}
+
+//Numbers going to 1 to 1000
+for (let i = 0; i <= 100; i++) {
+    console.log(i)
+}
+
+//Function to find exponet of numbers
+function power(base,exponet) {
+    result=1;
+    for (let i = 0; i < exponet; i++){
+        result = result * base;
+    }
+    return result;
+}
+console.log(power(4,2))
+
+//Write a functrion that takes two numbers, and starts with the first number and add all the numbers up to the second number
+
+function addLot(begin, finish){
+    let result = 0;
+    for (let i = begin; i <= finish; i++){
+        result=result + i;
+    }
+    return (result);
+}
+console.log(addLot(4,8))
