@@ -4,8 +4,14 @@ let trial =0;
 
 while (number != secretNumber) {
     trial+=1;
-    alert("Guess Number", tiral);
+    
+    alert("Guess number " + trial);
+    if(trial>4){
+        alert ("Game Over! The number was " + secretNumber)
+        break;
+    }
     let number = prompt ("Guess the number");
+    
     if (number > secretNumber) {
         alert("Go down");
     }
