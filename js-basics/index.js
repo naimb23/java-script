@@ -180,4 +180,3 @@ else {
     alert("You are a senior");
 }
 */
-
